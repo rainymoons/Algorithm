@@ -22,7 +22,7 @@ public class CompareTwoDigitScanner {
             try{
                 num1 = Integer.parseInt(input1);
             } catch(NumberFormatException e) {
-                System.out.println("유효한 숫자를 입력하거나, exit를 입력하세요");
+                System.out.println("유효한 숫자를 입력하거나, exit를 입력하세요! \n" + e.getMessage() + " 는 잘못된 입력입니다. \n");
                 continue;
             }
 
@@ -33,7 +33,7 @@ public class CompareTwoDigitScanner {
             try{
                 num2 = Integer.parseInt(input2);
             } catch(NumberFormatException e) {
-                System.out.println("유효한 숫자를 입력하거나, exit를 입력하세요");
+                System.out.println("유효한 숫자를 입력하거나, exit를 입력하세요! \n" + e.getMessage() + " 는 잘못된 입력입니다. \n");
                 continue;
             }
 
